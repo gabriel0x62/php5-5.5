@@ -821,6 +821,7 @@ binary-arch: build install
 	dh_installcron -pphp5-common --name=php5
 	dh_installchangelogs -pphp5-common NEWS
 	dh_installinit
+	dh_installdebconf
 	dh_link -s
 	dh_compress -s -Xphp.ini
 	dh_fixperms -s -X/var/lib/php5
