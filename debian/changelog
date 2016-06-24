@@ -1,3 +1,16 @@
+php5 (5.5.37+dfsg-1+deprecated+dontuse) unstable; urgency=medium
+
+  * Disable systemd in Ubuntu PPA builds
+  * Comment-out reload signal stanza since it's not supported in older
+    upstarts
+  * Add debconf note about PPA deprecation
+  * Split individual apt-get commands into separate paragraphs
+  * Imported Upstream version 5.5.37
+  * Imported Upstream version 5.5.37+dfsg
+  * Add the information about the last version
+
+ -- Ondřej Surý <ondrej@debian.org>  Fri, 24 Jun 2016 10:13:13 +0200
+
 php5 (5.5.36+dfsg-1) unstable; urgency=medium
 
   * Imported Upstream version 5.5.36+dfsg
