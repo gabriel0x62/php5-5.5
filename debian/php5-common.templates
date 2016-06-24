@@ -1,12 +1,14 @@
-Template: php5/deprecated
+Template: php5/lastversion
 Type: note
-Description: This PPA is deprecated!
- Please note that this PPA is deprecated and it's being replaced
- with ppa:ondrej/php that contains co-installable versions of
- PHP 5.5, PHP 5.6 and PHP 7.0.
+Description: This PPA has been deprecated!
+ Please note that this PPA has been deprecated and you need to use
+ ppa:ondrej/php that contains co-installable versions of PHP 5.5, PHP
+ 5.6 and PHP 7.0.
  .
- This PPA will reach end of life at the end of June 2016, and you
- have to replace it with the new centralized PHP PPA.
+ PHP 5.5.37 has been the last upload into this repository.  Also
+ please be aware that 5.5.37 is the last upstream version with
+ security support, so you should be really switching to PHP 5.6 or
+ even PHP 7.0. 
  .
  To add the new PPA, do:
  .
@@ -26,3 +28,6 @@ Description: This PPA is deprecated!
  versions and can be installed with (f.e. xdebug and APCu):
  .
  sudo apt-get install php-xdebug php-apcu
+ .
+ For more thorought documentation on the migrations, please see:
+ https://github.com/oerdnj/deb.sury.org/wiki/PPA-migration-to-ppa:ondrej-php
